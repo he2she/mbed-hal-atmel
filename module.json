@@ -1,0 +1,19 @@
+{
+  "name": "mbed-hal-atmel",
+  "version": "0.1.0",
+  "description": "mbed low-level Hardware Abstraction Layer implementation for Atmel Microcontrollers",
+  "keywords": [
+    "mbed",
+    "HAL"
+  ],
+  "license": "Apache-2",
+    "dependencies": {
+      "mbed-hal": "*",
+      "mbed-hal-atmel-common": "*"
+  },
+  "targetDependencies": {
+    "hal-atmel-samcortexm0p": {
+      "mbed-hal-atmel-samcortexm0p": "*"
+    }
+  }
+}
