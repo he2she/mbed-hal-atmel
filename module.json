@@ -14,6 +14,9 @@
   "targetDependencies": {
     "hal-atmel-samcortexm0p": {
       "mbed-hal-atmel-samcortexm0p": "*"
+    },
+    "hal-atmel-samcortexm4": {
+      "mbed-hal-atmel-samcortexm4": "*"
     }
   }
 }
