@@ -1,13 +1,13 @@
 {
   "name": "mbed-hal-atmel",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "mbed low-level Hardware Abstraction Layer implementation for Atmel Microcontrollers",
   "author": "Akhil P <Akhil.P@atmel.com>",
   "repository": {
-    "url": "git@github.com:ARMmbed/mbed-hal-atmel.git",
+    "url": "git@github.com:he2she/mbed-hal-atmel.git",
     "type": "git"
   },
-  "homepage": "https://github.com/ARMmbed/mbed-hal-atmel",  
+  "homepage": "https://github.com/he2she/mbed-hal-atmel",  
   "keywords": [
     "mbed",
     "HAL"
@@ -15,14 +15,14 @@
   "license": "Apache-2",
     "dependencies": {
       "mbed-hal": "*",
-      "mbed-hal-atmel-common": "*"
+      "mbed-hal-atmel-common": "he2she/mbed-hal-atmel-samcortexm4#v1.0.0"
   },
   "targetDependencies": {
     "hal-atmel-samcortexm0p": {
       "mbed-hal-atmel-samcortexm0p": "*"
     },
     "hal-atmel-samcortexm4": {
-      "mbed-hal-atmel-samcortexm4": "*"
+      "mbed-hal-atmel-samcortexm4": "he2she/mbed-hal-atmel-samcortexm4#v1.0.1"
     }
   }
 }
